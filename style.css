@@ -11,27 +11,40 @@ html {
 
 header {
   height: 100vh;
-  /* background-color: blanchedalmond; */
+  background-color: #f1f3f5;
 }
 
-.logo {
-  height: 30px;
+.margin-a {
+  margin: 0 48px;
+}
+
+.contenier {
+  margin-top: 10px;
+}
+
+.arlind {
+  text-decoration: none;
+  color: #f03e3e;
+  font-size: 20px;
+  font-weight: 600;
 }
 .nav-bar {
+  margin-bottom: 40px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
-  margin: 0 48px;
-  padding-top: 48px;
   align-items: center;
 
   /* background-color: #fdf2e9; */
 }
+
 .main-nav {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   display: flex;
   gap: 24px;
   list-style: none;
+  margin-bottom: 38px;
 }
 .main-nav-list:link,
 .main-nav-list:visited {
@@ -39,4 +52,43 @@ header {
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  padding: 2px;
+}
+
+.main-nav-list:active,
+.main-nav-list:hover {
+  background-color: #e9ecef;
+  border-radius: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
+}
+
+.cont-had-inner {
+  margin-top: 100px;
+}
+
+h1 {
+  margin-bottom: 36px;
+  font-size: 48px;
+}
+
+.cont-had-inner p {
+  margin-bottom: 36px;
+  font-size: 18px;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+.btn:visited,
+.btn:link {
+  text-decoration: none;
+  color: #fff;
 }
