@@ -66,6 +66,11 @@ header {
   gap: 48px;
 }
 
+.cont-head {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
 .cont-had-inner {
   margin-top: 100px;
 }
@@ -83,7 +88,7 @@ h1 {
 .btn {
   text-transform: uppercase;
   padding: 10px;
-  background-color: #333;
+  background-color: #f03e3e;
   border-radius: 20px;
 }
 
@@ -91,4 +96,12 @@ h1 {
 .btn:link {
   text-decoration: none;
   color: #fff;
+}
+
+.men-img {
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  margin-top: 48px;
+  margin-left: 48px;
 }
