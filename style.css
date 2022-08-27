@@ -7,6 +7,7 @@
 }
 html {
   font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -47,6 +48,7 @@ header {
   gap: 24px;
   list-style: none;
   margin-bottom: 38px;
+  /* transition: all 0.3s; */
 }
 .main-nav-list:link,
 .main-nav-list:visited {
@@ -61,6 +63,7 @@ header {
 .main-nav-list:hover {
   background-color: #d9dbdd;
   border-radius: 20px;
+  transition: all 0.3s;
 }
 .grid {
   display: grid;
@@ -93,6 +96,7 @@ h1 {
   padding: 10px;
   background-color: #f03e3e;
   border-radius: 20px;
+  transition: all 0.3s;
 }
 
 .btn:visited,
@@ -101,10 +105,51 @@ h1 {
   color: #fff;
 }
 
+.btn:hover,
+.btn:active {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f57878;
+}
+
 .men-img {
   height: 350px;
   width: 400px;
   border-radius: 20px;
   margin-top: 48px;
   margin-left: 48px;
+}
+
+/* ********************* */
+/* portofolio section */
+.portofolio-section {
+  background-color: #ced4da;
+  height: 500px;
+}
+
+.subheading {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #e67e22;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 0.75px;
+}
+
+.heading-secondary {
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 48px;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
