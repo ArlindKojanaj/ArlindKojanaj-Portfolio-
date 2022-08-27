@@ -149,8 +149,31 @@ h1 {
 }
 
 .work {
-  margin: 48px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 48px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
   justify-items: center;
+  text-align: center;
+}
+
+.work-heading {
+  color: #333;
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+.work-img {
+  margin-bottom: 8px;
+}
+
+.about {
+  margin-bottom: 8px;
+}
+
+.work-img {
+  height: 180px;
+  width: 350px;
 }
