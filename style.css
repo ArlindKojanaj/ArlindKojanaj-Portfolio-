@@ -272,3 +272,13 @@ h1 {
   background-color: #f57878;
   border: none;
 }
+
+.my-contacts {
+  text-align: center;
+  font-family: inherit;
+}
+
+.contact-img {
+  height: 150px;
+  width: 190px;
+}
