@@ -124,13 +124,13 @@ h1 {
 /* portofolio section */
 .portofolio-section {
   /* background-color: #ced4da; */
-  height: 700px;
+  /* height: 700px; */
 }
 
 .subheading {
   display: block;
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 500;
   color: #f03e3e;
   text-transform: uppercase;
@@ -153,11 +153,11 @@ h1 {
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 48px;
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
   justify-items: center;
-  text-align: center;
+  text-align: center; */
 }
 
 .work-heading {
@@ -165,13 +165,15 @@ h1 {
   font-size: 25px;
   font-weight: 800;
   margin-bottom: 18px;
+  justify-content: center;
 }
 .work-img {
-  margin-bottom: 8px;
+  margin-right: 20px;
 }
 
 .about {
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .work-text-p {
@@ -204,10 +206,13 @@ h1 {
 }
 
 .medilab {
+  display: flex;
   box-shadow: 20px 24px 48px rgba(0, 0, 0, 0.095);
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
+  margin-bottom: 80px;
+  width: 900px;
 }
 
 .medilab:hover {
@@ -215,6 +220,19 @@ h1 {
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
+.medilab--1 {
+  margin-left: 150px;
+}
+
+.course-center-2 {
+  margin-left: 300px;
+  margin-bottom: 100px;
+}
+
+.experinec {
+  background-color: #d9dbdd;
+  padding-bottom: 50px;
+}
 /* ********************* */
 /* contact section */
 .contact-section {
@@ -222,13 +240,14 @@ h1 {
   background-color: #f1f3f5;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  /* gap: 20px; */
   padding-bottom: 90px;
   padding-top: 20px;
 }
 
 .contact-form {
   text-align: center;
+  margin-right: 100px;
 }
 
 .contact-title {
@@ -292,7 +311,7 @@ h1 {
   text-transform: uppercase;
   font-family: inherit;
   margin-bottom: 30px;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 .contact-text {
   font-size: 18px;
