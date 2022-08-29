@@ -112,7 +112,7 @@ h1 {
   background-color: #f57878;
 }
 
-.men-img {
+.pc-img {
   height: 350px;
   width: 400px;
   border-radius: 20px;
@@ -123,18 +123,19 @@ h1 {
 /* ********************* */
 /* portofolio section */
 .portofolio-section {
-  background-color: #ced4da;
-  height: 500px;
+  /* background-color: #ced4da; */
+  height: 700px;
 }
 
 .subheading {
   display: block;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
   color: #e67e22;
   text-transform: uppercase;
   margin-bottom: 20px;
+  padding-top: 45px;
   letter-spacing: 0.75px;
 }
 
@@ -173,7 +174,43 @@ h1 {
   margin-bottom: 8px;
 }
 
+.work-text-p {
+  font-size: 15px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
 .work-img {
-  height: 180px;
-  width: 350px;
+  height: 190px;
+  width: 330px;
+}
+.work-link {
+  margin-bottom: 40px;
+}
+.work-link:link,
+.work-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  /* border: 2px solid; */
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #f03e3e;
+}
+
+.work-link:hover,
+.work-link:active {
+  background-color: #f57878;
+}
+
+.medilab {
+  box-shadow: 20px 24px 48px rgba(0, 0, 0, 0.095);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.medilab:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
