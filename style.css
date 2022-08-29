@@ -218,11 +218,13 @@ h1 {
 /* ********************* */
 /* contact section */
 .contact-section {
-  height: 700px;
+  /* height: 700px; */
   background-color: #f1f3f5;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  padding-bottom: 90px;
+  padding-top: 20px;
 }
 
 .contact-form {
@@ -262,9 +264,9 @@ h1 {
   color: #fff;
 }
 
-.btn-form:link,
+/* .btn-form:link,
 .btn-form:visited {
-}
+} */
 
 .btn-form:active,
 .btn-form:hover {
@@ -279,6 +281,31 @@ h1 {
 }
 
 .contact-img {
-  height: 150px;
-  width: 190px;
+  height: 180px;
+  width: 240px;
+  margin-bottom: 20px;
+}
+
+.contact-heading {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: inherit;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.contact-text {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+.contact-link {
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #f03e3e;
+}
+
+span {
+  text-decoration: none;
+  color: #333;
 }
