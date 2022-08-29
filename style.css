@@ -230,14 +230,14 @@ h1 {
 }
 
 .experinec {
-  background-color: #d9dbdd;
+  background-color: #f1f3f5;
   padding-bottom: 50px;
 }
 /* ********************* */
 /* contact section */
 .contact-section {
   /* height: 700px; */
-  background-color: #f1f3f5;
+  /* background-color: #f1f3f5; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* gap: 20px; */
