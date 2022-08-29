@@ -218,8 +218,11 @@ h1 {
 /* ********************* */
 /* contact section */
 .contact-section {
-  height: 400px;
+  height: 700px;
   background-color: #f1f3f5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .contact-form {
@@ -247,5 +250,25 @@ h1 {
 .contact-box input {
   font-family: inherit;
   color: inherit;
-  padding: 15px;
+  padding: 12px;
+}
+
+.btn-form {
+  margin-top: 12px;
+  padding: 12px 20px 12px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f03e3e;
+  color: #fff;
+}
+
+.btn-form:link,
+.btn-form:visited {
+}
+
+.btn-form:active,
+.btn-form:hover {
+  color: #fff;
+  background-color: #f57878;
+  border: none;
 }
