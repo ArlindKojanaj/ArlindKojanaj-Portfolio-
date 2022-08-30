@@ -43,7 +43,7 @@ header {
 
 .main-nav {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 800;
   display: flex;
   gap: 24px;
   list-style: none;
@@ -55,7 +55,7 @@ header {
   display: inline-block;
   text-decoration: none;
   color: #333;
-  font-weight: 500;
+  font-weight: 600;
   padding: 2px;
 }
 
@@ -333,4 +333,12 @@ span {
 
 h5 {
   margin-bottom: 15px;
+}
+
+/* ******** */
+/* copypight */
+.copyright {
+  padding: 20px;
+  background-color: #d9dbdd;
+  text-align: center;
 }
