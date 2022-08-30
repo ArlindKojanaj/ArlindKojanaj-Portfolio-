@@ -122,6 +122,7 @@ h1 {
 
 /* ********************* */
 /* portofolio section */
+/* ******************* */
 .portofolio-section {
   /* background-color: #ced4da; */
   /* height: 700px; */
@@ -235,6 +236,7 @@ h1 {
 }
 /* ********************* */
 /* contact section */
+/* ********************* */
 .contact-section {
   /* height: 700px; */
   /* background-color: #f1f3f5; */
@@ -327,4 +329,8 @@ h1 {
 span {
   text-decoration: none;
   color: #333;
+}
+
+h5 {
+  margin-bottom: 15px;
 }
